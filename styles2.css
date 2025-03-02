@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: left; 
+    align-items: left;
+    background-color: #055b3f;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar a {
+    color: #f0e0c1;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+nav {
+    display: flex;
+    justify-content: flex-start; 
+    background-color: #333; 
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px; 
+    font-weight: bold;
+}
